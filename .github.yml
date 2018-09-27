@@ -5,14 +5,14 @@ steps:
    then 
    echo "##vso[task.setvariable variable=ServiceVersion]1.$(build.buildNumber)"
    fi
-   
-  displayName: 'Bash Script'
 
+  displayName: 'Bash Script'
 
 
 - bash: 'echo "Service Version $SERVICEVERSION"' 
 
   displayName: 'Display variables'
+
 
 
 
