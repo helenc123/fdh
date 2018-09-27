@@ -11,7 +11,7 @@ steps:
 then echo \"##vso[task.setvariable variable=ServiceVersion;isOutput=true]1.$(build.buildNumber)\"; 
 else \"##vso[task.setvariable variable=ServiceVersion;isOutput=true]0.$(build.buildNumber)\"; 
 fi" 
-displayName: Setup Variables name: Variables
+displayName: Setup Variables name
 
 - bash: 
 echo "Service Version $(Variables.ServiceVersion)" 
