@@ -1,7 +1,3 @@
-queue:
-
-  name: Hosted VS2017
-
 steps:
 
 - bash: "if [[ $(build.sourceBranchName) =~ develop|master ]]; 
