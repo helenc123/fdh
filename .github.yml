@@ -13,11 +13,9 @@ steps:
 
 - bash: 'echo "Service Version $SERVICEVERSION"' 
 
-  displayName: 'Display variables'
+        'echo "##vso[build.updatebuildnumber]$SERVICEVERSION"'
 
-- bash: echo "##vso[build.updatebuildnumber]$SERVICEVERSION"
-
-  displayName: 'resetvar'
+ displayName: 'Display variables'
 
 
 
