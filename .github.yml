@@ -15,8 +15,7 @@ steps:
 
   displayName: 'Display variables'
 
-
-- bash: echo "##vso[build.updatebuildnumber]$SERVICEVERSION"
+- bash: echo '"##vso[build.updatebuildnumber]$SERVICEVERSION"'
 
   displayName: 'resetnumber'
  
