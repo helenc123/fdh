@@ -1,9 +1,5 @@
 steps:
-ktuikdj
 
-fytuyt
-yuifyu'tdhsr''
-drtyhdr
 - bash: |
    if [[ $(build.sourceBranchName) =~ develop|master ]]; 
    then 
@@ -23,7 +19,3 @@ drtyhdr
 
   displayName: 'resetnumber'
  
-
-dfsdag
-dhsrht
-io;
